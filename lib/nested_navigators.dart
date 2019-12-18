@@ -4,6 +4,8 @@ import 'package:nested_navigators/nested_nav_bloc.dart';
 import 'package:nested_navigators/nested_nav_bloc_provider.dart';
 import 'package:nested_navigators/nested_nav_item.dart';
 
+
+// The custom navigation bar you can inject
 typedef InjectedBottomNavigationBar = Widget Function(
     {List<BottomNavigationBarItem> items,
     int currentIndex,
